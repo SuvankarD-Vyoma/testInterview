@@ -225,10 +225,10 @@ export default function PreInterviewPage() {
                                 {refreshing && <div className="text-xs px-2 py-1 rounded bg-slate-100 text-slate-700 border border-slate-200">Refreshing…</div>}
                             </div> */}
                             <DataTable<QueueCandidate> data={queueCandidates} columns={queueColumns} isLoading={loading} />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </div >
+                    </div >
+                </div >
+            </div >
+        </div >
     )
 }
