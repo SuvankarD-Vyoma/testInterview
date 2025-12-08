@@ -1,4 +1,5 @@
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
+"use client"
 
 import { Users, ShieldCheck, ClipboardList, Activity, TrendingUp, Clock, CheckCircle2, AlertCircle } from "lucide-react"
 
