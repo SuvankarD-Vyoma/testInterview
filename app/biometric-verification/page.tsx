@@ -40,6 +40,8 @@ export default function VerificationPage() {
     })()
   }, [])
 
+  console.log("Results:", results)
+
 
 
   const mapStatus = (id?: number) => {
